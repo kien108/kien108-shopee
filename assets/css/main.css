@@ -571,7 +571,7 @@
 .header__cart-list {
     position: absolute;
     background-color: #fff;
-    right: 43%;
+    right: 41%;
     top: 107%;
     width: 400px;
     border-radius: 2px;
@@ -619,7 +619,7 @@
 .header__cart-list-items {
     list-style: none;
     padding-left: 0;
-    height: 40vh;
+    max-height: 30vh;
     overflow-y: auto;
 }
 
@@ -1330,3 +1330,4 @@ i.home-product-item__like-icon-fill {
     font-size: 1.2rem;
     margin: auto;
 }
+
