@@ -146,11 +146,22 @@
         margin-right: -8px;
     }
 
+   
+
     .col {
         padding-left: 8px;
         padding-right: 8px;
     }
 
+    .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .row.sm-gutter .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .m-0 {
         display: none;
     }
@@ -282,14 +293,14 @@
         margin-right: -12px;
     }
 
-    .row.sm-gutter {
-        margin-left: -5px;
-        margin-right: -5px;
-    }
-
     .col {
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
     }
 
     .row.sm-gutter .col {
