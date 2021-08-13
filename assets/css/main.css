@@ -519,6 +519,9 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.header__mobile-search:hover .header__mobile-search-icon{
+    color: hsla(0,0%,100%,.7);
+}
 .header__mobile-search-icon {
     font-size: 2.6rem;
     color: #fff;
@@ -570,17 +573,22 @@
 
 .header__cart-wrap {
     display: inline-block;
-    padding: 2px 12px;
+    padding: 0 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
 
-.header__cart-wrap:hover .header__cart-list{
+.header__cart-wrap:hover .header__cart-list {
     display: block;
 }
 
-.header__cart-icon:hover {
+.header__cart-wrap:hover .header__cart-icon
+{
     color: hsla(0,0%,100%,.7);
+}
+
+.header__cart-wrap:hover .header__cart-number {
+    background-color: hsla(0,0%,100%,.7);
 }
 
 .header__cart-icon {
