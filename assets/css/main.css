@@ -1421,6 +1421,7 @@ i.home-product-item__like-icon-fill {
 
 .footer__download-qr {
     width: 80px;
+    height: 80px;
     border: 1px solid var(--border-color);
     margin-right: 16px;
     cursor: pointer;
