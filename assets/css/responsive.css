@@ -50,11 +50,17 @@
         padding: 0;
     }
 
+    .home-product-item__sale-off-percent {
+        line-height: 0.5rem;
+    }
+
     .home-product-item__sale-off-label {
+        line-height: 0.5rem;
         top: -10px;
         /* font-size: 1.1rem; */
     }
 }
+
 /* mobile */
 @media (max-width: 46.1875em) {
     :root {
