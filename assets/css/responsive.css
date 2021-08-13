@@ -47,22 +47,9 @@
     }
 
     .home-product-item__sale-off {
-        padding-top: 0.1px;
-    }
-
-    .home-product-item__sale-off {
         padding: 0;
     }
-
-    .home-product-item__sale-off-percent {
-        line-height: 0.5rem;
-    }
-
-    .home-product-item__sale-off-label {
-        line-height: 0.5rem;
-    }
 }
-
 /* mobile */
 @media (max-width: 46.1875em) {
     :root {
