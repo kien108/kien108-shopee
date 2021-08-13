@@ -1344,7 +1344,7 @@ i.home-product-item__like-icon-fill {
     background-color: rgba(253, 214, 55, 0.94);
     text-align: center;
     padding: 4px 1px;
-   -webkit-appearance: initial;
+   -webkit-appearance: none;
 }
 
 .home-product-item__sale-off::before {
