@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  padding: 0 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -483,7 +487,7 @@ body {
   font-weight: 400;
 }
 .container-body .body__right .list .item__buy .btn-buy {
-  margin-left: 650px;
+  margin-left: 649px;
   padding: 15px 50px;
   margin-right: 8px;
 }
